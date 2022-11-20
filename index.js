@@ -55,7 +55,7 @@ class Store {
     return this.components[type]
   }
 
-  getComponentsByTypes(types) {
+  getComponentsWithTypes(types) {
     const components = {}
 
     for (const type in types) {
